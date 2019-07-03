@@ -1,0 +1,414 @@
+body,ul,li,h1,h2,h3,h4,h5,h6,span,p{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+.header{
+	width:100%;
+}
+.header_h{
+	width:1245px;
+	position: relative;
+}
+.header_h img{
+	padding-left:24px;
+	padding-top:25px;
+	padding-bottom:19px;
+}
+.header_h ul{
+	float:right;
+	position: absolute;
+	right:0;
+	top:34px;
+}
+.header_h ul li{
+	float:left;
+	margin-left:24px;
+	margin-right:24px;
+}
+.header_h ul li:nth-of-type(1){
+	margin-right:66px;
+}
+.header_h ul li a{
+	font-size:18px;
+	color:#333;
+	
+}
+.header_h p{
+	position:absolute;
+	width:36px;
+	height:2px;
+	background: #fc7863;
+	top:58px;
+	left:663px;
+	display:none ;
+	transition: all 1s;
+}
+.banner{
+	width:100%
+}
+.banner img{
+	width:100%;
+}
+.sj{
+	width:100%;
+}
+.sj .sjt{
+	width:1200px;
+	margin:0 auto;
+	position:relative;
+}
+.sj .sjt h3{
+	font-weight: 100;
+	font-size: 14px;
+	color:#333;
+	position:absolute;
+	right:0;
+	top:31px;
+}
+.sj .sjt h3 span{
+	margin-left:25px;
+	font-size: 12px;
+	padding-right:7px;
+	background: url(../img/fb.png)no-repeat center right;
+}
+.sj .sjt h3 a{
+	margin-left:7px;
+	color:#fa7860;
+}
+.sjt p:nth-of-type(1){
+	position:absolute;
+	width:1099px;
+	height:1px;
+	background: #666;
+	left:101px;
+	top:49px;
+}
+.sjt p:nth-of-type(2){
+	position:absolute;
+	width:22px;
+	height:19px;
+	border-bottom:1px solid #666;
+	border-left:1px solid #666;
+	left:0px;
+	top:67px;
+}
+.sj .sjt h4{
+	font-weight: 100;
+	font-size: 23px;
+	color:#333;
+	position:absolute;
+	left:30px;
+	top:55px;
+}
+.sjt p:nth-of-type(3){
+	position:absolute;
+	width:1px;
+	height:20px;
+	background: #666;
+	left:144px;
+	top:50px;
+}
+.sjt p:nth-of-type(4){
+	position:absolute;
+	width:1px;
+	height:204px;
+	background: #666;
+	left:11px;
+	top:87px;
+}
+.sjt p:nth-of-type(5){
+	position:absolute;
+	width:10px;
+	height:1px;
+	background: #666;
+	left:12px;
+	top:128px;
+}
+.sjt p:nth-of-type(6){
+	position:absolute;
+	width:10px;
+	height:1px;
+	background: #666;
+	left:12px;
+	top:175px;
+}
+.sjt p:nth-of-type(7){
+	position:absolute;
+	width:10px;
+	height:1px;
+	background: #666;
+	left:12px;
+	top:221px;
+}
+.sjt p:nth-of-type(8){
+	position:absolute;
+	width:10px;
+	height:1px;
+	background: #666;
+	left:12px;
+	top:265px;
+}
+.sjt ul{
+	position: absolute;
+	top:119px;
+	left:55px;
+}
+.sjt ul li{
+	font-size: 19px;
+	margin-bottom:20px;
+	padding-right:29px;
+	cursor: pointer;
+}
+.sjt ul .sd{
+	color:#fc7766;
+	background: url(../img/fb.png)no-repeat center right;
+}
+.fg{
+	margin-top:67px;
+	width:1012px;
+	margin-left:228px;
+	position:relative;
+}
+.fg h5{
+	font-weight: 100;
+	font-size: 18px;
+	color:#333;
+	padding-bottom:5px;
+	border-bottom:1px solid #999;
+}
+.fg h5 span{
+	font-size: 14px;
+	margin-left:12px;
+	vertical-align:middle;
+}
+.fg p:nth-of-type(1){
+	width:14px;
+	height:13px;
+	background: url(../img/bg.png);
+	margin-left:1px;
+	margin-top:-7px;
+}
+.fg h6{
+	font-weight: 100;
+	font-size: 14px;
+	color:#666;
+	line-height: 23px;
+	width:1008px;
+	height:64px;
+}
+.fg div{
+	width:1012px;
+	height:429px;
+}
+.fg div div{
+	float:left;
+	margin-right:55px;
+	width:212px;
+	height:343px;
+	cursor: pointer;
+}
+.fg  div div img{
+	width:100%;
+	height:100%;
+	transition:all 3s;
+}
+.fg div div:nth-of-type(4){
+	margin-left:-1px;
+	margin-right:0;
+}
+.fg div div h2{
+	font-size:14px;
+	font-weight:100;
+	color:#333;
+    margin-top:-18px;
+	transition: all 1s;
+	text-align: center;
+}
+.fg  div div div:nth-of-type(1){
+	width:68px;
+	height:1px;
+	background: #fff;
+	margin-left:71px;
+	margin-right:73px;
+}
+.fg div div span{
+	display: block;
+	font-size: 11px;
+	text-align: center;
+	color:#333;
+	margin:0 auto;
+	margin-top:32px;
+	opacity: 0;
+	transition: all 1s;
+}
+.fg div div:hover h2{
+	margin-top:-217px;
+	color:#fefeff;
+}
+.fg  div div:hover span{
+	opacity: 1;
+}
+.fg div div:hover div:nth-of-type(2){
+	opacity: 1;
+}
+.fg  div div div:nth-of-type(2){
+	position:absolute;
+	width:212px;
+	height:343px;
+	background: rgba(153,153,155,.3);
+	opacity: 0;
+	transition: all 1s;
+	top:100px;
+}
+.fg  div div div:nth-of-type(2) div:nth-of-type(1){
+	position:absolute;
+	width:0px;
+	height:1px;
+	background:green;
+	transition: all 0.5s;
+	top:13px;
+	left:-58px;
+}
+.fg  div div div:nth-of-type(2) div:nth-of-type(2){
+	position:absolute;
+	width:1px;
+	height:0px;
+	background:yellow;
+	transition: all 3s;
+	top:13px;
+	left:192px;
+}
+.fg div div div:nth-of-type(2) div:nth-of-type(3){
+	position:absolute;
+	width:1px;
+	height:1px;
+	background:blue;
+	transition: all 5s;
+	top:13px;
+	left:13px;
+}
+.fg div div div:nth-of-type(2) div:nth-of-type(4){
+	position:absolute;
+	width:1px;
+	height:1px;
+	background:red;
+	transition: all 5s;
+	top:325px;
+	left:14px;
+}
+
+
+.fg div div:hover div:nth-of-type(2) div:nth-of-type(1){
+	width:180px;
+}
+.fg  div div:hover div:nth-of-type(2) div:nth-of-type(2){
+	height:312px;
+}
+.fg div div:hover div:nth-of-type(2) div:nth-of-type(3){
+	height:312px;
+}
+.fg div div:hover div:nth-of-type(2) div:nth-of-type(4){
+	width:180px;
+}
+.tu{
+	width:100%;
+	display:none;
+}
+.tu .tuu{
+	width:1200px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.tuu .mg{
+	margin-top:69px;
+	width:1012px;
+	margin-left:188px;
+}
+.mg .tp{
+	width:208px;
+	height:391px;
+	margin-right:60px;
+	float:left;
+}
+.mg .tp:nth-of-type(4){
+	margin-right:0px;
+}
+.mg .tp:nth-of-type(8){
+	margin-right:0px;
+}
+.mg  .tp img{
+	width:208px;
+	height:339px;
+	transition: all 2s;
+}
+.mg  .tp h2{
+	font-weight: 100;
+	font-size:14px;
+	text-align: center;
+	margin-top:14px;
+	color:#333;
+}
+.mg button{
+	width:20px;
+	height:20px;
+	border:1px solid #333;
+	background: #fff;
+	font-size:16px;
+	color:#3f3f3f;
+}
+.mg button:nth-of-type(1){
+	margin-left:432px;
+	border-right:1px solid #878787;
+}
+.mg button:nth-of-type(2){
+	margin-left:93px;
+	border-left:1px solid #878787;
+}
+.mg h3{
+	font-size:18px ;
+	font-weight: 100;
+	margin-top:-25px;
+	color:#333;
+}
+.mg .az:nth-of-type(1){
+	margin-left:478px;
+	color:#ff7864;
+}
+.mg h3:nth-of-type(2){
+	margin-left:510px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.floot{
+	width:100%;
+	background: #666;
+}
+.floot .floot_l{
+	width:1245px;
+	height:80px;
+}
+.floot_l h2{
+	font-weight: 100;
+	color:#fff;
+	font-size:12px ;
+	text-align: center;
+	padding-top:36px;
+}
